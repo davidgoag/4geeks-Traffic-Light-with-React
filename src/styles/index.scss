@@ -10,4 +10,52 @@
     
     import 'relative/path/to/stylesheet.scss';
 
+
+    <div className="trafficlights">
+		<div className="light red"></div>
+		<div className="light yellow"></div>
+		<div className="light green"></div>
+	</div>
 */
+
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.trafficlights {
+    padding: 40px;
+    max-width: 140px;
+    background-color: #000;
+    border-radius: 15px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 99%;
+    margin: 10px 0 10px 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.shadow {
+    box-shadow: 9px 9px 12px 3px #ffffff;
+
+}
+.shadow1 {
+    box-shadow: 0px 0px 7px 2px #FFFFFF
+
+}
